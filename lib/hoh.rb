@@ -5,6 +5,7 @@
 # The tests will guide your construction.
 #
 
+
 def naming_system
 
   new_h0h = {
@@ -12,7 +13,10 @@ def naming_system
     sub_category:{
       label: "Phylum",
       sub_category: {
-        label: "class"
+        label: "class",
+        sub_category:{
+          label: "Order"
+        }
       }
     }
   }
