@@ -16,6 +16,12 @@ def naming_system
         label: "class",
         sub_category:{
           label: "Order",
+          sub_category: {
+            label: "family",
+            sub_category:{
+              label: "Genus"
+            }
+          }
         }
       }
     }
