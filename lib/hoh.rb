@@ -7,8 +7,7 @@
 
 def naming_system
 
-  new_h0h =
-  PORTION_1: {
+  new_h0h = {
     label: "Kingdom",
     sub_category:{
       label: "Phylum",
