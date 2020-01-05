@@ -30,14 +30,17 @@ PORTION_4 = {
    sub_category: nil
 }
 
-def naming_system(PORTION_1, PORTION_2, PORTION_3, PORTION_4)
+def naming_system
+  PORTION_1 = {
+    label: "Kingdom",
+    sub_category:{
+      label: "Phylum",
+      sub_category: {
+        label: "class"
+      }
+    }
+  }
 
-
-PORTION_1 = PORTION_2
-
-PORTION_1[PORTION_2] = {PORTION_3}
-
-PORTION_1[PORTION_2][PORTION_3] = {PORTION_4}
 
 
 
